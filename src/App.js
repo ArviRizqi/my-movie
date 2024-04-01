@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import './App.css';
 import { getMovieList, searchMovie } from './api';
+import Header from './component/Header';
 
 const App = () => {
   
@@ -34,6 +35,7 @@ const App = () => {
 
   return (
     <div className="App">
+      <Header />
       <header className="App-header">
         <h1>My Movie List</h1>
           <input type="text" placeholder='Cari film' className='Movie-search'
