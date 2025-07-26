@@ -43,9 +43,9 @@
 }
 
 .Movie-title{
-  height: 60px;
-  margin-top: 26px;
+  height: auto;
   font-weight: bold;
+  padding: 10px;
 }
 
 .Movie-date{
